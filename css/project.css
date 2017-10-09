@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.project-content {
+	width: 960px;
+	height: 600px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.project-content header {
+	padding: 20px 30px 30px;
+}
+.project-content header div {
+	display: inline-block;
+}
+.project-content header .hed-right {
+	float: right;
+}
+.project-content header .hed-left .star,.all-project {
+	display: inline-block;
+	max-width: 100px;
+	min-width: 20px;
+	line-height: 36px;
+	margin: 0px 4px 10px 0;
+	padding: 0 12px;
+	background-color: #f0f0f0;
+	border-radius: 20px;
+	vertical-align: middle;
+	text-align: center;
+	color: black;
+}
+.all-project {
+	color: #fff;
+	background-color: #aed4d1;
+}
+.project-content header .hed-right .setproject {
+	margin-right: 5px;
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 36px;
+	border-right: 1px solid #ddd;
+	color: #4ea5ad;
+}
+.project-content header .hed-right .switch-view {
+	line-height: 36px;
+}
+.project-content header .hed-right .switch-view a {
+	width: auto;
+	text-align: center;
+	padding: 0 5px;
+	color: #e8e8e8;
+}
+.project-content header .hed-right .switch-view .active {
+	color: #ccc;
+}
+.projtcnt {
+	padding: 0px 30px 80px;
+}
+.project-groups a {
+	display: block;
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+.project-groups a i,span {
+	display: block;
+	text-align: center;
+}
+.project-groups a:hover {
+	border: 1px solid #4ea5ad;
+}
+.project-groups .shuxi .icon-yunduan,.project-groups .jihua .icon-shizhong {
+	font-size: 65px;
+	color: #c8bfa5;
+	margin: 15px auto 20px; 
+	padding: 0 10px;
+}
+.project-stars {
+	display: none;
+	padding-top: 200px;
+	position: relative;
+	text-align: center;
+}
+.project-stars::before {
+	content: '';
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 124px;
+    height: 104px;
+	background: url(../images/星标项目.png) center no-repeat;
+}
+.project-stars p {
+	display: block;
+}
+.project-content footer {
+	width: 900px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px 10px 0;
+	margin: 0 auto 20px;
+	box-sizing: border-box;
+	border-top: 1px solid #eee;
+	font-size: 14px;
+}
+.project-content footer a {
+	color: #4ea5ad;
+}

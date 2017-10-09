@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tower项目</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="../css/project.css">
+	<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+</head>
+<body>
+	<div class="project-content">
+		<header>
+			<div class="hed-left">
+				<a href="jacascript:;" class="star">
+					<i class="iconfont icon-icstar3"></i>
+				</a>
+				<a href="jacascript:;" class="all-project">所有项目</a>
+			</div>
+			<div class="hed-right">
+				<a href="jacascript:;" class="setproject">新建项目</a>
+				<div class="switch-view">
+					<a href="jacascript:;" class="active">
+						<i class="iconfont icon-fenleia"></i>
+					</a>
+					<a href="jacascript:;">
+						<i class="iconfont icon-fenlei"></i>
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="projtcnt">
+			<div class="project-groups">
+				<a class="shuxi">
+					<i class="iconfont icon-yunduan"></i>
+					<span>熟悉Tower</span>
+				</a>
+				<a class="jihua">
+					<i class="iconfont icon-shizhong"></i>
+					<span>计划与总结&作业</span>
+				</a>
+			</div>
+			<div class="project-stars">
+				<p class="prostar-desc">你还没有星标项目</p>
+				<p class="prostar-desc">星标常用的项目以便快速找到</p>
+			</div>
+		</div>
+		<footer>
+			<a href="##">管理项目模板</a>
+		</footer>
+	</div>
+
+	<script type="text/javascript">
+		var star = document.querySelector(".star");
+		var allProject = document.querySelector(".all-project");
+		var proGroups = document.querySelector(".project-groups");
+		var proStars = document.querySelector(".project-stars");
+		star.addEventListener("click",function() {
+			proGroups.style.display = "none";
+			proStars.style.display = "block";
+		});
+		allProject.addEventListener("click",function() {
+			proGroups.style.display = "block";
+			proStars.style.display = "none";
+		});
+	</script>
+</body>
+</html>
