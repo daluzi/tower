@@ -1,0 +1,255 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.container {
+	position: relative;
+	width: 962px;
+	margin: 0 auto;
+	border: 0;
+}
+.project {
+	width: 100%;
+	background: #ffffff;
+	opacity: 1;
+	border: 1px solid #dbdfd6;
+	box-shadow: 0 15px 15px rgba(0，0，0，0.05)；
+
+}
+.project-content {
+	margin: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.project-header {
+	padding: 30px 0 4px;
+	border-bottom: 1px solid #B8C8C8;
+}
+.project-hd-info {
+	padding-bottom: 16px;
+	border-bottom: 4px solid #B8C8C8;
+}
+.project-name {
+	display: block;
+	font-size: 28px;
+	line-height: 1.5;
+	color: #555;
+	text-align: left;
+	overflow: hidden;
+
+}
+.desc {
+	display: block;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #887;
+	text-align: left;
+}
+.project-detail {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding-right: 40px;
+	height: 58px;
+	overflow: hidden;
+}
+.detail-desc {
+	float: left;
+	position: relative;
+	width: 70px;
+	margin: 0 8px 0 7px;
+	padding: 8px 0;
+	color: #84a099;
+	font-size: 12px;
+	text-align: center;
+	border-right: 1px solid #dddddd;
+}
+.detail-desc:nth-of-type(3) {
+	border: none;
+}
+.detail-desc:hover {
+	cursor: pointer;
+	color: #4ea5ad;
+}
+.detail-main {
+	font-size: 18px;
+	line-height: 24px;
+}
+.detail-desc span {
+	display: block;
+}
+.section-top {
+	position: relative;
+	margin-bottom: 50px;
+}
+.section-top h3,.section-files h3 {
+	margin: 30px 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 28px;
+}
+h3 a.title ,.section-files a{
+	float: left;
+	color: #333;
+}
+.drop-down {
+	float: left;
+	margin-left: 20px;
+}
+.drop-down a, .btn {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.2;
+	color: #000;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #ccc;
+	border-radius: 4px 0 0 4px;
+}
+.btn {
+	margin-left: -7px;
+	background: #f3f3f3;
+}
+.drop-down-menu {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	float: left;
+	font-size: 14px;
+	margin: 2px 0 0;
+	padding: 5px 0;
+	background: #ffffff;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px 0 #ccc;
+	border: 1px solid #ccc;
+}
+.drop-down-menu a {
+	border: none;
+	box-shadow: none;
+	padding:3px 12px;
+	color: #333;
+}
+.sec-top-icon {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 17px;
+	line-height: 20px;
+}
+.sec-top-icon a {
+	display: inline-block;
+	padding-right: 8px;
+	color: #ddd;
+	line-height: 20px;
+}
+.sec-top-icon a:hover {
+	color: #ccc;
+}
+.sec-top-content {
+	margin: 0;
+	padding: 150px 0 100px;
+	background: url(images/arrow-line.png) no-repeat;
+	background-size: 120px 150px;
+	background-position: 100px 24px;
+}
+.top-title {
+	color: #333;
+	font-size: 24px;
+	text-align:center;
+}
+.project-completed a {
+	margin: 0 5px 0 3px;
+	font-size: 12px;
+	color: #4ea5ad;
+	text-decoration: none;
+}
+.section-files {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.drop-down-2 {
+	margin-left: 56px;
+}
+.upload ,.drop-down-2 a {
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #000;
+	cursor: pointer;
+	border-radius: 4px 0 0 4px;
+}
+.upload {
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #ccc;
+}
+.btn2 {
+	margin-left: 0;
+	padding: 6px 10px;
+	border-radius: 4px 0 0 4px;
+	background: #f3f3f3;
+	box-shadow: 1px 1px 1px #ccc;
+}
+.section-files h3 {
+	position: relative;
+}
+.switch-view {
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.switch-view a {
+	display: inline-block;
+	padding-right: 8px;
+	color: #ddd;
+	line-height: 20px;
+}
+.switch-view a:hover {
+	color: #ccc;
+}
+.gallery-wrap {
+	margin-left: 0;
+	padding: 0;
+	border: 0;
+}
+.gallery-list {
+	display: inline-block;
+	width: 140px;
+	vertical-align: top;
+	margin: 0px 16px 15px;
+}
+
+.gallery-list span {
+	margin:10px 0 4px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.gallery-list span:hover {
+	color: #4ea5ad;
+	cursor:pointer;
+}
+.list-content-1 img {
+	display: inline-block;
+	width:  100px;
+	height:  80px;
+}
+.list-content-2 img {
+	display: inline-block;
+	height:  80px;
+}
+.more {
+	margin:20px 0 0 0;
+}
+.more a {
+	margin: 0 10px 0 0;
+	font-size: 12px;
+	color: #4ea5ad;
+	text-decoration: none;
+}
+.more a:hover {
+	color: #2ee1a8;
+}
