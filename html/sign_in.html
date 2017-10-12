@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<meta charset="utf-8">
+	<style>
+		div{
+			margin: 20px auto;
+			text-align: center;
+			background-color: white;
+		}
+		.bd{
+			width: 1080px;
+			height: 598px;
+			margin-top: 0px;
+		}
+		.hd{
+			margin-top: 80px;
+			width: 960px;
+			height: 56px;
+		}
+		
+		.footer{
+			width: 960px;
+			height: 58px;
+			text-align: center;
+		}
+		a{
+			text-decoration: none;
+			color: #0000FF;
+		}
+		.sign-title{
+			width: 380px;
+			height: 32px;
+			text-align: center;
+		}
+		.sign-section{
+			width: 380px;
+			height: 300px;
+			text-align: center;
+		}
+		.desc{
+			width: 380px;
+			height: 14px;
+		}
+		
+	</style>
+	<!--sign-section部分还没有实现尖角效果-->
+</head>
+<body bgcolor="white"><!--body内的登录按键以及整体背景还没有从原来网页提取颜色-->
+<div class="bd">
+		<div class="hd">
+			<img src="image/tower.png" width="190" height="56" />
+		</div>
+
+		<div class="sign-title">
+			<p>账户登录或<a href="https://tower.im/users/sign_in">钉钉登录</a></p>
+		</div>
+
+		<div class="sign-section">
+			 <input type="email" name="email" id="email" placeholder="登录邮箱" data-validate="required;email" data-validate-msg="请填写你的登录邮箱" autofocus style="width: 318px; height: 44px;" />
+			<br /><br />
+			<input type="password" name="password" placeholder="密码" data-validate="required;length:6" data-validate-msg="请填写你的登录密码" style="width: 318px; height: 44px; " />
+			<br />
+		
+            <p align="left">
+            <label for="cb-remember"><input type="checkbox" name="remember_me" id="cb-remember" checked  /> 
+            下次自动登录
+        	</label>
+            </p>
+             <p align="right">
+            <span class="forgot_password"><a href="https://tower.im/users/forgot_password">忘记密码了？</a></span>
+            </p>
+        <!--忘记密码和自动登录始终无法对齐，原因未知-->
+        <div class="form-buttons">
+            <button type="btn-submit" style="width: 318px; height: 43px;background-color: green;">登录</button>
+             <div class="desc">
+             没有账号？<a href="https://tower.im/users/sign_up">立即注册 →</a>
+            </div>
+        </div>
+		</div>
+	
+</div>
+<!--页面下方微信登录未实现-->
+	<div class="footer">
+		@彩程设计
+	</div>
+	
+</body>
+</html>
