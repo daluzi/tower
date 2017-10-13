@@ -10,81 +10,117 @@
 			background-color: white;
 		}
 		.bd{
+			background-color: #f4f7ed;
 			width: 1080px;
 			height: 598px;
 			margin-top: 0px;
 		}
 		.hd{
+			background-color: #f4f7ed;
 			margin-top: 80px;
 			width: 960px;
 			height: 56px;
 		}
 		
 		.footer{
+			background-color: #f4f7ed;
 			width: 960px;
 			height: 58px;
 			text-align: center;
 		}
 		a{
 			text-decoration: none;
-			color: #0000FF;
+			color: rgb(153,153,153);
 		}
 		.sign-title{
+			font-size: 15px;
+			background-color: #f4f7ed;
 			width: 380px;
 			height: 32px;
 			text-align: center;
 		}
 		.sign-section{
+
 			width: 380px;
 			height: 300px;
 			text-align: center;
+			color: rgb(153,153,153);
 		}
 		.desc{
+			width: 320px;
+			height: 48px;
+			color: rgb(153,153,153);
+			font-size: 5px;
+
+		}
+		.button{
+			width: 318px; 
+			height: 43px;
+			background-color: #95b93d; 
+			color: white;
+			border-radius: 15px;
+		}
+		.sign-section-center{
+			padding: 36px,30px,20px,30px;
+		}
+		.wechat{
 			width: 380px;
-			height: 14px;
+			height: 32px;
+			background-color: #f4f7ed;
 		}
 		
 	</style>
 	<!--sign-section部分还没有实现尖角效果-->
 </head>
-<body bgcolor="white"><!--body内的登录按键以及整体背景还没有从原来网页提取颜色-->
+<body bgcolor=#f4f7ed style="margin: 8px;">
 <div class="bd">
 		<div class="hd">
-			<img src="image/tower.png" width="190" height="56" />
+			<img src="images/tower.png" width="190" height="56" />
 		</div>
-
+		<br />
 		<div class="sign-title">
-			<p>账户登录或<a href="https://tower.im/users/sign_in">钉钉登录</a></p>
+			<a href="javascript:;" style="color: #333;">账户登录</a>
+			<span>或</span>
+				<a href="https://tower.im/users/sign_in" style="color: #38adff;">钉钉登录</a>
 		</div>
 
-		<div class="sign-section">
+	<div class="sign-section">
+			<div class="sign-section-center">
+			<br /><br />
 			 <input type="email" name="email" id="email" placeholder="登录邮箱" data-validate="required;email" data-validate-msg="请填写你的登录邮箱" autofocus style="width: 318px; height: 44px;" />
 			<br /><br />
 			<input type="password" name="password" placeholder="密码" data-validate="required;length:6" data-validate-msg="请填写你的登录密码" style="width: 318px; height: 44px; " />
 			<br />
 		
-            <p align="left">
+            <p align="left" style="font-size: 5px;">
             <label for="cb-remember"><input type="checkbox" name="remember_me" id="cb-remember" checked  /> 
             下次自动登录
         	</label>
+            <span class="forgot_password" style="float: right;"><a href="https://tower.im/users/forgot_password">忘记密码了？</a></span>
             </p>
-             <p align="right">
-            <span class="forgot_password"><a href="https://tower.im/users/forgot_password">忘记密码了？</a></span>
-            </p>
-        <!--忘记密码和自动登录始终无法对齐，原因未知-->
-        <div class="form-buttons">
-            <button type="btn-submit" style="width: 318px; height: 43px;background-color: green;">登录</button>
+
+         <button style="width: 318px; height: 43px;background-color: #95b93d; color: white;border-radius: 10px;" >
+         	登录
+         </button>
+        
              <div class="desc">
              没有账号？<a href="https://tower.im/users/sign_up">立即注册 →</a>
             </div>
-        </div>
-		</div>
-	
-</div>
-<!--页面下方微信登录未实现-->
-	<div class="footer">
-		@彩程设计
+       		</div>
+       		
 	</div>
+	<div class="wechat">
+		<img src="images/wechat.png" width="17" height="15" /><a href="javascript:;" style="color: #abca5e; font-size: 15px;">微信登录</a>
+	</div>
+	<div style="height: 20px; background-color: #f4f7ed">
+		
+	</div>
+	<div class="footer" style="color: rgb(153,153,153); font-size: 5px;">
+		&copy; 彩程设计
+	</div>
+</div>
+
+	
 	
 </body>
 </html>
