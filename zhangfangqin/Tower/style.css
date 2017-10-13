@@ -99,8 +99,7 @@ h3 a.title ,.section-files a{
 	float: left;
 	margin-left: 20px;
 }
-.drop-down a, .btn {
-	padding: 5px 10px;
+.drop-down a,.btn,.btn2 {
 	font-size: 12px;
 	line-height: 1.2;
 	color: #000;
@@ -109,9 +108,16 @@ h3 a.title ,.section-files a{
 	box-shadow: 1px 1px 1px #ccc;
 	border-radius: 4px 0 0 4px;
 }
-.btn {
-	margin-left: -7px;
+.drop-down a {
+	padding: 5px 10px;
+}
+.btn ,.btn2{
+	margin: 0;
+	padding: 6px 10px;
 	background: #f3f3f3;
+}
+.btn2 {
+	vertical-align: top;
 }
 .drop-down-menu {
 	display: none;
@@ -170,27 +176,15 @@ h3 a.title ,.section-files a{
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
-.drop-down-2 {
-	margin-left: 56px;
-}
-.upload ,.drop-down-2 a {
+.upload {
 	padding: 5px 10px;
 	font-size: 14px;
 	line-height: 1.2;
 	color: #000;
 	cursor: pointer;
-	border-radius: 4px 0 0 4px;
-}
-.upload {
 	border: 1px solid #ccc;
 	box-shadow: 1px 1px 1px #ccc;
-}
-.btn2 {
-	margin-left: 0;
-	padding: 6px 10px;
 	border-radius: 4px 0 0 4px;
-	background: #f3f3f3;
-	box-shadow: 1px 1px 1px #ccc;
 }
 .section-files h3 {
 	position: relative;
@@ -252,4 +246,38 @@ h3 a.title ,.section-files a{
 }
 .more a:hover {
 	color: #2ee1a8;
+}
+.footer {
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 16px;
+	border-top: 1px solid #dddddd;
+}
+.footer a {
+	display: inline-block;
+	margin: 20px 16px 0px;
+	line-height: 16px;
+	font-size: 14px;
+	color: #887;
+	text-align: center;
+}
+.footer span:nth-of-type(5) {
+	border-left: 1px solid #dddddd;
+}
+.footer a:hover {
+	cursor: pointer;
+	color: #4ea5ad;
+}
+.trash {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 42px;
+	height: 42px;
+	color: #ddd;
+}
+.trash:hover {
+	color: #ccc;
+	cursor: pointer;
 }
