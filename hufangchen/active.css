@@ -1,3 +1,4 @@
+/*清除原有属性*/
 li {
 	list-style: none;
 }
@@ -6,11 +7,13 @@ a {
 	text-decoration: none;
 }
 
+/*改变文件改动信息位置*/
 #conter {
 	position: relative;
 	bottom: 40px;
 }
 
+/*内容样式*/
 #concent {
 	width: 882px;
 	margin: 0 auto;
@@ -19,6 +22,7 @@ a {
 	padding: 40px;
 }
 
+/*标题部分样式*/
 #concent p {
 	font-size: 14px;
 	color: #333333;
@@ -32,6 +36,8 @@ a {
 	padding: 0px 12px;
 }
 
+
+/*每天文件改动信息样式*/
 #concent .act .top {
 	margin-top: 60px;
 }
@@ -93,4 +99,16 @@ a {
 	position: relative;
 	bottom: 34px;
 	left: 20px;
+}
+
+
+/*加载按钮*/
+#more {
+	width: 200px;
+	height: 30px;
+	margin-left: 341px;
+	background: #dadbd8;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
 }
