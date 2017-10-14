@@ -45,6 +45,9 @@
 			height: 300px;
 			text-align: center;
 			color: rgb(153,153,153);
+			padding: 15px 0px 0px;
+    		box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+   			
 		}
 		.desc{
 			width: 320px;
@@ -60,13 +63,16 @@
 			color: white;
 			border-radius: 15px;
 		}
-		.sign-section-center{
-			padding: 36px,30px,20px,30px;
-		}
+		
 		.wechat{
 			width: 380px;
 			height: 32px;
 			background-color: #f4f7ed;
+		}
+		.sign-section-center{
+			width: 320px;
+			height: 244px;
+
 		}
 		
 	</style>
@@ -86,10 +92,10 @@
 
 	<div class="sign-section">
 			<div class="sign-section-center">
+			
+			 <input type="email" name="email" id="email" placeholder="登录邮箱" data-validate="required;email" data-validate-msg="请填写你的登录邮箱" autofocus style="width: 318px; height: 44px; font-size: 18px;  border-radius: 4px; border: 1px solid #aaa;"" />
 			<br /><br />
-			 <input type="email" name="email" id="email" placeholder="登录邮箱" data-validate="required;email" data-validate-msg="请填写你的登录邮箱" autofocus style="width: 318px; height: 44px;" />
-			<br /><br />
-			<input type="password" name="password" placeholder="密码" data-validate="required;length:6" data-validate-msg="请填写你的登录密码" style="width: 318px; height: 44px; " />
+			<input type="password" name="password" placeholder="密码" data-validate="required;length:6" data-validate-msg="请填写你的登录密码" style="width: 318px; height: 44px; font-size: 18px; border-radius: 4px; border: 1px solid #aaa;" />
 			<br />
 		
             <p align="left" style="font-size: 5px;">
@@ -99,7 +105,7 @@
             <span class="forgot_password" style="float: right;"><a href="https://tower.im/users/forgot_password">忘记密码了？</a></span>
             </p>
 
-         <button style="width: 318px; height: 43px;background-color: #95b93d; color: white;border-radius: 10px;" >
+         <button style="width: 318px; height: 43px;background-color: #95b93d; color: white;border-radius: 4px; border-style: none; font-size: 20px; font-weight: bold;" >
          	登录
          </button>
         
@@ -112,7 +118,7 @@
 	<div class="wechat">
 		<img src="images/wechat.png" width="17" height="15" /><a href="javascript:;" style="color: #abca5e; font-size: 15px;">微信登录</a>
 	</div>
-	<div style="height: 20px; background-color: #f4f7ed">
+	<div style="height: 5px; background-color: #f4f7ed">
 		
 	</div>
 	<div class="footer" style="color: rgb(153,153,153); font-size: 5px;">
