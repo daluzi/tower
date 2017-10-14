@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.group{
+	padding: 0 30px 40px;
+	width: 902px;
+}
+.member-groups{
+	padding: 20px 0;
+	font-size: 14px;
+	line-height: 36px;
+}
+.active{
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 36px;
+	background-color: #aed4d1;
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+}
+#group-title{
+	line-height: 35px;
+    font-weight: 500;
+}
+#group-count{
+	font-weight: normal;
+    font-size: 14px;
+    color: #999;
+}
+.member{
+	display: inline-block;
+	padding: 12px 15px;
+    height: 78px;
+    border-top: 1px solid #e8e8e8;
+}
+.member td{
+	padding: 12px;
+}
+.member-detail{
+	width: 255px;
+}
+.member-pic{
+    margin-right: 15px;
+    width: 54px;
+    height: 54px;
+    vertical-align: middle;
+    border-radius: 27px;
+}
+.member-name{
+	color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 52px;
+}
+.member-name:hover{
+	color: #4ea5ad;
+}
+.member-role{
+	font-size: 12px;
+    color: #999;
+}
+.member-phone{
+	width: 164px;
+}
+.member-comment{
+	width: 200px;
+	text-align: right;
+}

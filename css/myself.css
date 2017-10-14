@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.myself{
+	width: 962px;
+}
+.member-info{
+	padding: 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.member-pic{
+	padding: 0 20px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    vertical-align: top;
+}
+.member-card{
+	display: inline-block;
+}
+.member-name{
+	color: #333;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 36px;
+}
+.member-mail{
+	margin-top: 3px;
+	padding-top: 3px;
+    font-size: 14px;
+    color: #999;
+}
+.member-nav{
+	border-bottom: 1px solid #e6e6e6;
+    padding: 0 20px;
+    position: relative;
+    z-index: 30;
+}
+.member-nav a{
+	padding: 0 20px;
+	color: #84a099;
+	height: 40px;
+    line-height: 40px;
+}
+.active{
+	font-weight: bold;
+}
+.member-nav-sigin{
+	position: absolute;
+	right: 0;
+	font-size: 12px;}
+.member-nav-sigin-pro{
+	width: 26px;
+	height: 13px;
+	vertical-align: middle;
+}
+.myself-boxes{
+	padding: 20px 20px 20px 40px;
+}
+.myself-smallbox{
+	margin: 20px 0;
+	position: relative;
+}
+.myself-box-title{
+    color: #999;
+    line-height: 2em;
+    font-size: 13px;
+    font-weight: normal;
+}
+.myself-box-desc{
+    color: #bcbcbc;
+    font-size: 14px;
+    line-height: 2em;
+}
+.myself-more{
+	margin-top: 40px;
+}
+.myself-more a{
+	color: #4ea5ad;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.myself-more a:hover{
+	color: #5bc4c7;
+}
+.project-filter{
+	float: right;
+    position: relative;
+    width: 120px;
+    margin-top: 8px;
+    z-index: 99;
+    direction: rtl;
+}
+.pro-main{
+	display: none;
+	width: 248px;
+	height: 271px;
+	background: #fff;
+	position: absolute;
+	right: 148px;
+	border: 1px solid #ccc;
+    border-radius: 6px;
+    z-index: 20;
+}
+.pro-main-sign{
+	width: 14px;
+    height: 14px;
+    border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+    position: absolute;
+    right: -7px;
+    transform: rotate(45deg);
+    top: 15px;
+    z-index: 90;
+    background: #fff;
+    display: inline-block;
+}
+.pro-feature{
+	width: 100px;
+	height: 100px;
+	margin: 18px auto;
+	background: url(../images/longsign.png);
+	background-position: center;
+}
+.pro-text{
+	text-align: center;
+	line-height: 1.5em;
+	vertical-align: baseline;
+}
+.pro-bottom{
+	margin-top: 12px;
+    padding: 17px 20px;
+    background-color: #f5f8ee;
+    border-top: 1px solid #ccc;
+}
+#pro-bottom-subm{
+	color: #fff;
+    background-color: #64b52f;
+    padding: 8px 28px;
+    font-size: 16px;
+    width: 150px;
+    height: 24px;
+    line-height: 1.5em;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
