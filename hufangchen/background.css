@@ -84,7 +84,7 @@ body {
 
 #nav .person_nav {
 	height: 30px;
-	width: 200px;
+	width: 146px;
 }
 
 /*加载事件*/
@@ -93,6 +93,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	color: #b6baae;
+	margin-top: 40px;
 }
 
 #foot p {
