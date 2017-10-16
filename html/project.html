@@ -5,49 +5,118 @@
 	<meta charset="utf-8"> 
 	<link rel="stylesheet" type="text/css" href="../css/project.css">
 	<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../hufangchen/background.css">
 </head>
 <body>
-	<div class="project-content">
-		<header>
-			<div class="hed-left">
-				<a href="jacascript:;" class="star">
-					<i class="iconfont icon-icstar3"></i>
-				</a>
-				<a href="jacascript:;" class="all-project">所有项目</a>
-			</div>
-			<div class="hed-right">
-				<a href="jacascript:;" class="setproject">新建项目</a>
-				<div class="switch-view">
-					<a href="jacascript:;" class="active">
-						<i class="iconfont icon-fenleia"></i>
+	<div id="background">
+		<!--菜单栏-->
+		<div id="nav">
+			<ul>
+
+				<!--项目菜单-->
+				<li id="title" class="title">
+					<a href="">NMIDFE<img src="img/bottom_jiao.png" class="bottom_jiao"></a>
+					<div id="main" style="display: none;">
+						<img src="img/top_jiao.png">
+					</div>
+				</li>
+				<li>
+					<a href="../html/project.html">项目</a>
+				</li>
+				<li>
+					<a href="">动态</a>
+				</li>
+				<li>
+					<a href="../html/calendar.html">日历</a>
+				</li>
+				<li>
+					<a href="">周报</a>
+				</li>
+				<li>
+					<a href="">团队</a>
+				</li>
+				<li>
+					<a href="">我自己</a>
+				</li>
+				<li>
+					<a href="">知人</a>
+				</li>
+				<li>
+					<a href="">升级到</a>
+				</li>
+				<li style="margin-left: 170px;">
+					<!--右侧菜单-->
+					<div class="person_nav">
+						<ul>
+							<li>
+								<a href="##">
+									<img src="img/serach.png">
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/dang.png">
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/head.png">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+
+			
+		</div>
+
+		<div class="project-content">
+			<header>
+				<div class="hed-left">
+					<a href="jacascript:;" class="star">
+						<i class="iconfont icon-icstar3"></i>
 					</a>
-					<a href="jacascript:;">
-						<i class="iconfont icon-fenlei"></i>
+					<a href="jacascript:;" class="all-project">所有项目</a>
+				</div>
+				<div class="hed-right">
+					<a href="jacascript:;" class="setproject">新建项目</a>
+					<div class="switch-view">
+						<a href="jacascript:;" class="active">
+							<i class="iconfont icon-fenleia"></i>
+						</a>
+						<a href="jacascript:;">
+							<i class="iconfont icon-fenlei"></i>
+						</a>
+					</div>
+				</div>
+			</header>
+			<div class="projtcnt">
+				<div class="project-groups">
+					<a class="shuxi">
+						<i class="iconfont icon-yunduan"></i>
+						<span>熟悉Tower</span>
+					</a>
+					<a class="jihua">
+						<i class="iconfont icon-shizhong"></i>
+						<span>计划与总结&作业</span>
 					</a>
 				</div>
+				<div class="project-stars">
+					<p class="prostar-desc">你还没有星标项目</p>
+					<p class="prostar-desc">星标常用的项目以便快速找到</p>
+				</div>
 			</div>
-		</header>
-		<div class="projtcnt">
-			<div class="project-groups">
-				<a class="shuxi">
-					<i class="iconfont icon-yunduan"></i>
-					<span>熟悉Tower</span>
-				</a>
-				<a class="jihua">
-					<i class="iconfont icon-shizhong"></i>
-					<span>计划与总结&作业</span>
-				</a>
-			</div>
-			<div class="project-stars">
-				<p class="prostar-desc">你还没有星标项目</p>
-				<p class="prostar-desc">星标常用的项目以便快速找到</p>
-			</div>
+			<footer>
+				<a href="##">管理项目模板</a>
+			</footer>
 		</div>
-		<footer>
-			<a href="##">管理项目模板</a>
-		</footer>
-	</div>
 
+		<!--底部-->
+		<div id="foot">
+			<p>@彩程设计</p>
+		</div>
+	</div>
 	<script type="text/javascript">
 		var star = document.querySelector(".star");
 		var allProject = document.querySelector(".all-project");
@@ -62,5 +131,6 @@
 			proStars.style.display = "none";
 		});
 	</script>
+	<script type="text/javascript" src="background.js"></script>
 </body>
 </html>
