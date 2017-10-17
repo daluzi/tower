@@ -1,0 +1,31 @@
+/*整个页面的背景颜色*/
+body {
+	background-color: #f4f7ed;
+}
+
+/**页面头部位置**/
+#header {
+	width: 960px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: red;
+}
+
+
+
+
+/**页面底部位置**/
+#footer {
+	width: 960px;
+	height: 18px;
+	padding: 20px 0px; 
+	margin: 0 auto;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 12px;
+	color: #b6baae; 
+}
