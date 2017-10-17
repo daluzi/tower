@@ -99,7 +99,7 @@ h3 a.title ,.section-files a{
 	float: left;
 	margin-left: 20px;
 }
-.drop-down a,.btn,.btn2 {
+.drop-down a,.btn,.btn-edit {
 	font-size: 12px;
 	line-height: 1.2;
 	color: #000;
@@ -111,12 +111,12 @@ h3 a.title ,.section-files a{
 .drop-down a {
 	padding: 5px 10px;
 }
-.btn ,.btn2{
+.btn ,.btn-edit{
 	margin: 0;
 	padding: 6px 10px;
 	background: #f3f3f3;
 }
-.btn2 {
+.btn-edit {
 	vertical-align: top;
 }
 .drop-down-menu {
@@ -157,7 +157,7 @@ h3 a.title ,.section-files a{
 .sec-top-content {
 	margin: 0;
 	padding: 150px 0 100px;
-	background: url(images/arrow-line.png) no-repeat;
+	background: url(../images/arrow-line.png) no-repeat;
 	background-size: 120px 150px;
 	background-position: 100px 24px;
 }
