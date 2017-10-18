@@ -1,149 +1,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="../css/plan.css">
-<link rel="stylesheet" type="text/css" href="../css/background.css">
-<link rel="stylesheet" type="text/css" href="../libs/font-awesome-4.7.0/css/font-awesome.min.css">
-	<title>Tower</title>
+	<title>tower</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/head&foot.css">
+	<link rel="stylesheet" href="../css/background.css">
+	<link rel="stylesheet" href="../css/plan.css">
+	<link rel="stylesheet" type="text/css" href="../libs/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div id="background">
+	<!--页面头部-->
+	<div id="header">
 		<!--菜单栏-->
 		<div id="nav">
-			<ul>
+			<ul id="ul">
 
 				<!--项目菜单-->
 				<li id="title" class="title">
-					<a href="">NMIDFE<img src="../images/bottom_jiao.png" class="bottom_jiao"></a>
-					<div id="main" style="display: none;">
-						<img src="../images/top_jiao.png">
-					</div>
+					<a href="##">NMIDFE<img src="../images/bottom_jiao.png" class="bottom_jiao"></a>
 				</li>
 				<li>
-					<a href="">项目</a>
+					<a href="project.html">项目</a>
 				</li>
 				<li>
-					<a href="">动态</a>
+					<a href="active.html" class="act">动态</a>
 				</li>
 				<li>
-					<a href="">日历</a>
+					<a href="calendar.html">日历</a>
 				</li>
 				<li>
-					<a href="">周报</a>
+					<a href="plan.html">周报</a>
 				</li>
 				<li>
-					<a href="">团队</a>
+					<a href="group.html">团队</a>
 				</li>
 				<li>
-					<a href="">我自己</a>
+					<a href="myself.html">我自己</a>
 				</li>
 				<li>
-					<a href="">知人</a>
+					<a href="##">知人</a>
 				</li>
 				<li>
-					<a href="">升级到</a>
+					<a href="##" class="leave">
+						升级到
+						<span>pro</span>
+					</a>
 				</li>
-				<li style="margin-left: 222px;">
+				<li class="right_nav">
 					<!--右侧菜单-->
-			<div class="person_nav">
-				<ul>
-					<li>
-						<a href="##">
-								<img src="../images/serach.png">
-						</a>
-					</li>
-					<li>
-						<a href="##">
-								<img src="../images/dang.png">
-						</a>
-					</li>
-					<li>
-						<a href="##">
-								<img src="../images/head.png">
-						</a>
-					</li>
-				</ul>
-			</div>
+					<div class="person_nav">
+						<ul>
+							<li>
+								<a href="##">
+									<img src="../images/serach.png" class="serach">
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="../images/dang.png" class="dang">
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="../images/head.png">
+								</a>
+							</li>
+						</ul>
+					</div>
 				</li>
-			</ul>
+			</ul>	
 		</div>
-		<div class="container">
-			<div class="project">
-				<div class="project-content">
-					<div class="project-header">
-						<div class="project-hd-info">
-							<span class="project-name">计划与总结&作业</span>
-							<span class="desc">前端学员作业</span>
+	</div>
+
+	<!--项目主要内容-->
+	<div class="container">
+		<div class="project">
+			<div class="project-content">
+				<div class="project-header">
+					<div class="project-hd-info">
+						<span class="project-name">计划与总结&作业</span>
+						<span class="desc">前端学员作业</span>
+					</div>
+					<div class="project-detail">
+						<div class="detail-desc">
+							<span class="detail-main">0</span>
+							<span>待处理任务</span>
 						</div>
-						<div class="project-detail">
-							<div class="detail-desc">
-								<span class="detail-main">0</span>
-								<span>待处理任务</span>
-							</div>
-							<div class="detail-desc">
-								<span class="detail-main">36</span>
-								<span>成员</span>
-							</div>
-							<div class="detail-desc">
-								<span class="detail-main">
-									<i class="fa fa-cog fa-lg"></i>
-								</span>
-								<span>设置</span>
-							</div>
+						<div class="detail-desc">
+							<span class="detail-main">36</span>
+							<span>成员</span>
+						</div>
+						<div class="detail-desc">
+							<span class="detail-main">
+								<i class="fa fa-cog fa-lg"></i>
+							</span>
+							<span>设置</span>
 						</div>
 					</div>
-					<div class="project-section">
-						<div class="section-top">
-							<h3>
-								<a href="##" class="title">任务</a>
-								<div class="drop-down">
-									<a href="##" class="">添加任务</a>
-									<ul class="drop-down-menu">
-										<li><a href="##">
+				</div>
+
+				<div class="project-section">
+					<div class="section-top">
+						<h3>
+							<a href="##" class="section-title">任务</a>
+							<div class="drop-down">
+								<a href="##" class="">添加任务</a>
+								<ul class="drop-down-menu">
+									<li>
+										<a href="##">
 											<i class="fa fa-check-square"></i>
 											添加任务
-										</a></li>
-										<li>
-											<a href="##">
-												<i class="fa fa-list-alt"></i>
-												添加清单
-											</a>
-										</li>
-									</ul>
-								</div>
-								<button class="btn">
-										<i class="fa fa-caret-down"></i>
-								</button>
-							</h3>
-							<div class="sec-top-icon">
-								<a href="##">
-									<i class="fa fa-filter"></i>
-								</a>
-								<a href="##">
-									<i class="fa fa-list-alt"></i>
-								</a>
-								<a href="##">
-									<i  class="fa fa-user"></i>
-								</a>
+										</a>
+									</li>
+									<li>
+										<a href="##">
+											<i class="fa fa-list-alt"></i>
+											添加清单
+										</a>
+									</li>
+								</ul>
 							</div>
-							<div class="sec-top-content">
-								<div class="top-title">
-									项目创建好了，开始添加第一条任务吧
-								</div>
-								<div class="project-completed">
-									<a href="##">已完成任务</a>
-								</div>
+							<button class="btn">
+									<i class="fa fa-caret-down"></i>
+							</button>
+						</h3>
+						<div class="sec-top-icon">
+							<a href="##">
+								<i class="fa fa-filter"></i>
+							</a>
+							<a href="##">
+								<i class="fa fa-list-alt"></i>
+							</a>
+							<a href="##">
+								<i  class="fa fa-user"></i>
+							</a>
+						</div>
+						<div class="sec-top-content">
+							<div class="top-title">
+								项目创建好了，开始添加第一条任务吧
+							</div>
+							<div class="project-completed">
+								<a href="##">已完成任务</a>
 							</div>
 						</div>
-						<div class="section-files">
+					</div>
+					<div class="section-files">
 						<h3>
 							<a href="##">文件</a>
 							<div class="drop-down">
 								<a href="##" class="upload">上传文件</a>
 								<ul class="drop-down-menu">
 									<li>
-										<a href="##"><i class="fa fa-upload"></i>
+										<a href="##">
+												<i class="fa fa-upload"></i>
 											上传文件
 										</a>
 									</li>
@@ -197,35 +206,36 @@
 								<a href="##">附件中心</a>
 							</div>
 						</div>
-						</div>
 					</div>
 				</div>
-				<div class="footer">
-				<span>
-					<a href="##">添加</a>
-				</span>
-				<span>
-					<a href="##">讨论</a>
-				</span>
-				<span>
-					<a href="##">文档</a>
-				</span>
-				<span>
-					<a href="##">日程</a>
-				</span>
-				<span>
-					<a href="##">模块设置</a>
-				</span>
-				<div class="trash">
-					<i class="fa fa-trash fa-2x"></i>
-				</div>
-				</div>
+			</div>
+
+			<div class="project-footer">
+			<span>
+				<a href="##">添加</a>
+			</span>
+			<span>
+				<a href="##">讨论</a>
+			</span>
+			<span>
+				<a href="##">文档</a>
+			</span>
+			<span>
+				<a href="##">日程</a>
+			</span>
+			<span>
+				<a href="##">模块设置</a>
+			</span>
+			<div class="trash">
+				<i class="fa fa-trash fa-2x"></i>
+			</div>
 			</div>
 		</div>
-	<!--底部-->
-	<div id="foot">
-		<p>@彩程设计</p>
 	</div>
+
+	<!--页面底部-->
+	<div id="footer">
+		<p>@彩程设计</p>
 	</div>
 </body>
 </html>

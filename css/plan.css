@@ -91,7 +91,7 @@
 	font-size: 20px;
 	line-height: 28px;
 }
-h3 a.title ,.section-files a{
+h3 a.section-title ,.section-files a{
 	float: left;
 	color: #333;
 }
@@ -247,13 +247,13 @@ h3 a.title ,.section-files a{
 .more a:hover {
 	color: #2ee1a8;
 }
-.footer {
+.project-footer {
 	position: relative;
 	margin-top: 50px;
 	margin-bottom: 16px;
 	border-top: 1px solid #dddddd;
 }
-.footer a {
+.project-footer a {
 	display: inline-block;
 	margin: 20px 16px 0px;
 	line-height: 16px;
@@ -261,10 +261,10 @@ h3 a.title ,.section-files a{
 	color: #887;
 	text-align: center;
 }
-.footer span:nth-of-type(5) {
+.project-footer span:nth-of-type(5) {
 	border-left: 1px solid #dddddd;
 }
-.footer a:hover {
+.project-footer a:hover {
 	cursor: pointer;
 	color: #4ea5ad;
 }
