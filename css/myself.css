@@ -8,7 +8,10 @@ a{
 .myself{
 	width: 962px;
 	background: #fff;
+	border: 1px solid #dbdfd6;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
+
 .member-info{
 	padding: 20px;
 	border-bottom: 1px solid #e6e6e6;
@@ -63,7 +66,7 @@ a{
 	padding: 20px 20px 20px 40px;
 }
 .myself-smallbox{
-	margin: 20px 0;
+	margin-bottom: 20px;
 	position: relative;
 }
 .myself-box-title{
