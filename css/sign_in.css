@@ -1,0 +1,71 @@
+div{
+			margin: 20px auto;
+			text-align: center;
+			background-color: white;
+		}
+		.bd{
+			background-color: #f4f7ed;
+			width: 1080px;
+			height: 598px;
+			margin-top: 0px;
+		}
+		.hd{
+			background-color: #f4f7ed;
+			margin-top: 80px;
+			width: 960px;
+			height: 56px;
+		}
+		
+		.footer{
+			background-color: #f4f7ed;
+			width: 960px;
+			height: 58px;
+			text-align: center;
+		}
+		a{
+			text-decoration: none;
+			color: rgb(153,153,153);
+		}
+		.sign-title{
+			font-size: 15px;
+			background-color: #f4f7ed;
+			width: 380px;
+			height: 32px;
+			text-align: center;
+		}
+		.sign-section{
+
+			width: 380px;
+			height: 300px;
+			text-align: center;
+			color: rgb(153,153,153);
+			padding: 15px 0px 0px;
+    		box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+   			
+		}
+		.desc{
+			width: 320px;
+			height: 48px;
+			color: rgb(153,153,153);
+			font-size: 5px;
+
+		}
+		.button{
+			width: 318px; 
+			height: 43px;
+			background-color: #95b93d; 
+			color: white;
+			border-radius: 15px;
+		}
+		
+		.wechat{
+			width: 380px;
+			height: 32px;
+			background-color: #f4f7ed;
+		}
+		.sign-section-center{
+			width: 320px;
+			height: 244px;
+
+		}
+		
