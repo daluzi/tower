@@ -1,97 +1,90 @@
-*{
-	padding: 0;
-	margin: 0;
-}
-a{
-	text-decoration: none;
-}
-.myself{
+.myself {
 	width: 962px;
 	background: #fff;
 	border: 1px solid #dbdfd6;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-.member-info{
+.member-info {
 	padding: 20px;
 	border-bottom: 1px solid #e6e6e6;
 }
-.member-pic{
+.member-pic {
 	padding: 0 20px;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
     vertical-align: top;
 }
-.member-card{
+.member-card {
 	display: inline-block;
 }
-.member-name{
+.member-name {
 	color: #333;
     font-size: 28px;
     font-weight: normal;
     line-height: 36px;
 }
-.member-mail{
+.member-mail {
 	margin-top: 3px;
 	padding-top: 3px;
     font-size: 14px;
     color: #999;
 }
-.member-nav{
+.member-nav {
 	border-bottom: 1px solid #e6e6e6;
     padding: 0 20px;
     position: relative;
     z-index: 30;
 }
-.member-nav a{
+.member-nav a {
 	padding: 0 20px;
 	color: #84a099;
 	height: 40px;
     line-height: 40px;
 }
-.active{
+.active {
 	font-weight: bold;
 }
-.member-nav-sigin{
+.member-nav-sigin {
 	position: absolute;
 	right: 0;
 	font-size: 12px;}
-.member-nav-sigin-pro{
+.member-nav-sigin-pro {
 	width: 26px;
 	height: 13px;
 	vertical-align: middle;
 }
-.myself-boxes{
+.myself-boxes {
 	padding: 20px 20px 20px 40px;
 }
-.myself-smallbox{
+.myself-smallbox {
 	margin-bottom: 20px;
 	position: relative;
 }
-.myself-box-title{
+.myself-box-title {
     color: #999;
     line-height: 2em;
     font-size: 13px;
     font-weight: normal;
 }
-.myself-box-desc{
+.myself-box-desc {
     color: #bcbcbc;
     font-size: 14px;
     line-height: 2em;
 }
-.myself-more{
+.myself-more {
 	margin-top: 40px;
 }
-.myself-more a{
+.myself-more a {
 	color: #4ea5ad;
 	margin-right: 10px;
 	font-size: 12px;
 }
-.myself-more a:hover{
+.myself-more a:hover {
 	color: #5bc4c7;
 }
-.project-filter{
+.project-filter {
 	float: right;
     position: relative;
     width: 120px;
@@ -99,7 +92,7 @@ a{
     z-index: 99;
     direction: rtl;
 }
-.pro-main{
+.pro-main {
 	display: none;
 	width: 248px;
 	height: 271px;
@@ -110,7 +103,7 @@ a{
     border-radius: 6px;
     z-index: 20;
 }
-.pro-main-sign{
+.pro-main-sign {
 	width: 14px;
     height: 14px;
     border-top: 1px solid #ccc;
@@ -123,25 +116,25 @@ a{
     background: #fff;
     display: inline-block;
 }
-.pro-feature{
+.pro-feature {
 	width: 100px;
 	height: 100px;
 	margin: 18px auto;
 	background: url(../images/longsign.png);
 	background-position: center;
 }
-.pro-text{
+.pro-text {
 	text-align: center;
 	line-height: 1.5em;
 	vertical-align: baseline;
 }
-.pro-bottom{
+.pro-bottom {
 	margin-top: 12px;
     padding: 17px 20px;
     background-color: #f5f8ee;
     border-top: 1px solid #ccc;
 }
-#pro-bottom-subm{
+#pro-bottom-subm {
 	color: #fff;
     background-color: #64b52f;
     padding: 8px 28px;
