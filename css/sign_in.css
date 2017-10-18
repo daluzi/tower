@@ -1,71 +1,85 @@
-div{
-			margin: 20px auto;
-			text-align: center;
-			background-color: white;
-		}
-		.bd{
-			background-color: #f4f7ed;
-			width: 1080px;
-			height: 598px;
-			margin-top: 0px;
-		}
-		.hd{
-			background-color: #f4f7ed;
-			margin-top: 80px;
-			width: 960px;
-			height: 56px;
-		}
-		
-		.footer{
-			background-color: #f4f7ed;
-			width: 960px;
-			height: 58px;
-			text-align: center;
-		}
-		a{
-			text-decoration: none;
-			color: rgb(153,153,153);
-		}
-		.sign-title{
-			font-size: 15px;
-			background-color: #f4f7ed;
-			width: 380px;
-			height: 32px;
-			text-align: center;
-		}
-		.sign-section{
+body {
+	line-height: 1.5;
+	background-color: #f4f7ed;
+}
+.zhsign-in-a {
+	vertical-align: baseline;
+    background: transparent;
+    color: #555;
+    text-decoration: none;
+}
+.dingsign-in-a {
+	vertical-align: baseline;
+    background: transparent;
+    color: #38ADFF;
+    text-decoration: none;
+}
+.sign-page {
+	margin: 80px auto 40px;	
+	width: 960px;
+	height: 500px;
 
-			width: 380px;
-			height: 300px;
-			text-align: center;
-			color: rgb(153,153,153);
-			padding: 15px 0px 0px;
-    		box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-   			
-		}
-		.desc{
-			width: 320px;
-			height: 48px;
-			color: rgb(153,153,153);
-			font-size: 5px;
+}
+.footer {
+	width: 960px;
+	height: 58px;
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 58px;
+	text-align: center;
+	color: #aaaaaa;
+}
+.hd {
+	width: 960px;
+	height: 56px;
+	text-align: center;
+}
+.form {
+	width: 380px;
+	height: 394px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sign-title {
+	width: 380px;
+	height: 32px;
+	padding-top: 10px;	
+	text-align: center;
+}
+.sign-section {
+	position: relative;
+	height: 244px;
+	padding: 36px 30px 20px;
+    margin: 15px 0;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-radius: 4px;
+}
+.form-item {
+	margin-bottom: 20px;
+}
+.form-field {
+    position: relative;
+    text-align: left;
+}
+#email {
+	width: 300px;
+	height: 30px;
+    padding: 6px 8px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+}
+#password {
+	width: 300px;
+	height: 30px;
+    padding: 6px 8px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+}
 
-		}
-		.button{
-			width: 318px; 
-			height: 43px;
-			background-color: #95b93d; 
-			color: white;
-			border-radius: 15px;
-		}
-		
-		.wechat{
-			width: 380px;
-			height: 32px;
-			background-color: #f4f7ed;
-		}
-		.sign-section-center{
-			width: 320px;
-			height: 244px;
-
-		}
-		
