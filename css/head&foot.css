@@ -6,10 +6,7 @@ body {
 /**页面头部位置**/
 #header {
 	width: 960px;
-	height: 30px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px auto;
 }
 
 
