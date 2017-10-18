@@ -9,6 +9,11 @@ a{
 	padding: 0 30px 40px;
 	width: 902px;
 	background: #fff;
+	border: 1px solid #dbdfd6;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.member-links{
+	margin-top: 25px;
 }
 .member-groups{
 	padding: 20px 0;
@@ -27,6 +32,7 @@ a{
 #group-title{
 	line-height: 35px;
     font-weight: 500;
+    font-size: 29px;
 }
 #group-count{
 	font-weight: normal;
@@ -35,12 +41,11 @@ a{
 }
 .member{
 	display: inline-block;
-	padding: 12px 15px;
     height: 78px;
     border-top: 1px solid #e8e8e8;
 }
 .member td{
-	padding: 12px;
+	padding: 10px;
 }
 .member-detail{
 	width: 255px;
