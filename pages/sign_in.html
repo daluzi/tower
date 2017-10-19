@@ -3,7 +3,8 @@
 <head>
 	<title>登录-Tower</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../css/new_sign_in.css">
+	<link rel="stylesheet" type="text/css" href="../css/sign_in.css">
+	<link rel="icon" href="../images/tower-title.ico">
 </head>
 <body class="body">
 	<div class="sign-page">
@@ -27,7 +28,28 @@
                     		<div class="form-field">
                     			<input type="password" id="password" placeholder="密码" data-validate="required;length:6" data-validate-msg="请填写你的登录密码">
                     		</div>
+                    		<div class="desc">
+                    			<p class="left">
+                    				<label for="cb-remember">
+                    					<input type="checkbox" name="remember_me" id="cb-remember" checked="">
+                    					下次自动登录
+                    				</label>
+                    			</p>
+                    			<p class="right">
+                    				<a href="https://tower.im/users/forgot_password" class="forgot_password-a">忘记密码了？</a>
+                    			</p>
+                    		</div>
+                    		<div class="form-buttons">
+                    			<button type="submit" id="btn-signin" class="btn-submit" data-disable-with="正在登录..." data-goto="/launchpad/">登录</button>
+                    		</div>
+                    		<div class="desc">
+                    			没有帐号？
+                    			<a href="/users/sign_up" class="forgot_password-a">立即注册 →</a>
+                    		</div>
                     	</div>
+                    </div>
+                    <div class="wechat-signin">
+                    	<img src="../images/wechat.png" class="wechat-signin-png"><a href="javascript:;" class="wechat-signin-text">微信登录</a>
                     </div>
 			</div>
 		</form>
