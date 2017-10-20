@@ -125,6 +125,10 @@ body {
     cursor: pointer;/*手形光标*/
     text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
 }
+.btn-submit-a {
+	color: #fff;
+	text-decoration: none;
+}
 .wechat-signin-png {
 	width:17px;
 	height:15px;
